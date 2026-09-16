@@ -1,0 +1,23 @@
+{
+  "name": "listingflow",
+  "version": "0.1.0",
+  "description": "根据产品资料生成 eBay 英德文案，交付可追溯的文案与自查 Excel。",
+  "author": {
+    "name": "paulrose4"
+  },
+  "repository": "https://github.com/paulrose4/listingflow",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ListingFlow 商品文案助手",
+    "shortDescription": "填写 SKU、站点、资料目录，获得完整文案与双 Excel。",
+    "longDescription": "面向电商运营：核对产品资料与版本、调研可访问的 eBay 关键词、生成英文或德文文案，并交付文案.xlsx 与自查.xlsx。默认交付运营审阅草稿，不自动刊登。联网数据取决于浏览器能力和账号权限，受限时明确提示，不冒充已验证。",
+    "developerName": "paulrose4",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "使用 ListingFlow 生成商品文案。SKU：【填写】；站点：【填写】；资料目录：【填写】。允许读取该目录及子文件夹，交付完整文案、文案.xlsx 和自查.xlsx。",
+      "使用 ListingFlow 检查产品资料。SKU：【填写】；站点：【填写】；资料目录：【填写】。允许读取该目录及子文件夹，先分析资料，暂不生成文案。",
+      "使用 ListingFlow 修改当前任务文案。修改要求：【填写】。保留其他内容，重新审核并交付同批文案.xlsx 和自查.xlsx。"
+    ]
+  }
+}

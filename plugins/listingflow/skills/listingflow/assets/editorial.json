@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "version": "listingflow-editorial-2.0",
+  "purpose": "Writing workflow and heuristic quality review; not additional marketplace policy",
+  "tones": ["clear_practical", "warm_restrained", "technical_precise"],
+  "quality_dimensions": {
+    "differentiation": "卖点互补",
+    "buyer_usefulness": "购买决策价值",
+    "naturalness": "本地语言自然度",
+    "conciseness": "简洁与信息密度",
+    "keyword_fit": "关键词相关性",
+    "conditions": "限制条件完整性"
+  },
+  "near_duplicate_threshold": 0.72,
+  "near_duplicate_min_tokens": 5,
+  "paragraph_warning_chars": 600,
+  "filler_phrases": {
+    "en": ["perfect for everyone", "designed to meet your needs", "ultimate solution", "unmatched quality", "take it to the next level", "look no further"],
+    "de": ["perfekt für jeden", "ultimative lösung", "unschlagbare qualität", "lässt keine wünsche offen", "auf ein neues level"]
+  },
+  "stopwords": {
+    "en": ["a", "an", "the", "and", "or", "to", "for", "of", "with", "in", "on", "it", "is", "are", "your", "this", "that"],
+    "de": ["der", "die", "das", "ein", "eine", "und", "oder", "für", "mit", "von", "im", "in", "auf", "ist", "sind", "ihr", "ihre"]
+  }
+}

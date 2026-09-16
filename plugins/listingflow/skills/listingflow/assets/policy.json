@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": "listingflow-internal-draft-1",
+  "status": "pending_business_approval",
+  "origin": "Company eBay requirements and ListingFlow V3; not a statement of current official platform policy",
+  "sites": {"US": ["en"], "UK": ["en"], "AU": ["en"], "DE": ["de"]},
+  "limits": {"title": 80, "bullet": 100, "question": 80, "answer": 200, "bullets": 5, "qa": 5, "primary_keyword_prefix": 55},
+  "counting": "Unicode NFC code points including spaces, punctuation and line breaks",
+  "required_fact_fields": ["product_name", "core_function"],
+  "review_categories": ["localization", "claims", "keywords", "images"],
+  "pending_decisions": [
+    "Approve site/language pairs and maximum-not-exact title length",
+    "Approve keyword prefix, repetition and Yes/No localization interpretation",
+    "Resolve term scopes, short-word false positives, category codes, EU and blank scope semantics",
+    "Approve image/source checks and German-language coverage"
+  ],
+  "limits_runtime": {"files": 200, "file_bytes": 52428800, "total_bytes": 314572800, "expanded_bytes": 104857600, "xml_cells": 100000, "grid_cells": 500000, "pdf_pages": 200, "image_pixels": 40000000, "parse_seconds": 60}
+}

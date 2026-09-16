@@ -1,0 +1,20 @@
+{
+  "name": "listingflow-marketplace",
+  "interface": {
+    "displayName": "ListingFlow 运营工具"
+  },
+  "plugins": [
+    {
+      "name": "listingflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/listingflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
